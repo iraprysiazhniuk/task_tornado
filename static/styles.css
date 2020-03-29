@@ -1,0 +1,44 @@
+html {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    background-image: url('background.jpg');
+    width: 100%;
+    font-size: 14px;
+    margin: auto;
+    background-size: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    display: flex;
+    padding-left: 2%;
+}
+
+.text p {
+    font-size: 36px;
+    color: wheat;
+}
+
+.inputs {
+    display: flex;
+    padding-left: 2%;
+}
+
+.coordinate1,
+.coordinate2 {
+    width: 30%;
+    height: 3em;
+    color: blue;
+}
+#ico{
+    padding-left: 2%;
+    padding-top: 2%;
+}
